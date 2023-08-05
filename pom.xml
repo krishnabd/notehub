@@ -13,7 +13,7 @@
         <!-- Add any necessary properties here -->
     </properties>
 
-    <dependency>
+<dependency>
   <groupId>org.jenkins-ci.plugins.workflow</groupId>
   <artifactId>workflow-basic-steps</artifactId>
   <scope>test</scope>
