@@ -7,8 +7,8 @@
     <groupId>com.example</groupId>
     <artifactId>my-artifact</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-         <packaging>pom</packaging><!-- Change the packaging to "jar" for including resources -->
+    <packaging>pom</packaging>
+         <!-- Change the packaging to "jar" for including resources -->
 
     <properties>
         <!-- Add any necessary properties here -->
