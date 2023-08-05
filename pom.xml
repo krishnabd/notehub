@@ -7,7 +7,7 @@
     <groupId>com.example</groupId>
     <artifactId>my-artifact</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
          <!-- Change the packaging to "jar" for including resources -->
 
     <properties>
@@ -15,30 +15,6 @@
     </properties>
 
          <dependencies>
-               <dependency>
-                     <groupId>org.jenkins-ci.plugins.workflow</groupId>
-                     <artifactId>workflow-basic-steps</artifactId>
-                     <version>2.40</version> <!-- Replace with the correct version for workflow-basic-steps -->
-                     <scope>test</scope>
-                 </dependency>
-                 <dependency>
-                     <groupId>org.jenkins-ci.plugins.workflow</groupId>
-                     <artifactId>workflow-cps</artifactId>
-                     <version>2.93</version> <!-- Replace with the correct version for workflow-cps -->
-                     <scope>test</scope>
-                 </dependency>
-                 <dependency>
-                     <groupId>org.jenkins-ci.plugins.workflow</groupId>
-                     <artifactId>workflow-durable-task-step</artifactId>
-                     <version>2.39</version> <!-- Replace with the correct version for workflow-durable-task-step -->
-                     <scope>test</scope>
-                 </dependency>
-                 <dependency>
-                     <groupId>org.jenkins-ci.plugins.workflow</groupId>
-                     <artifactId>workflow-job</artifactId>
-                     <version>2.41</version> <!-- Replace with the correct version for workflow-job -->
-                     <scope>test</scope>
-                 </dependency>
     </dependencies>
     <build>
         <resources>
