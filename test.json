@@ -1,60 +1,68 @@
 {
-  "stats": {
-    "suites": 1,
-    "tests": 3,
-    "passes": 3,
-    "pending": 0,
-    "failures": 0,
-    "duration": 2000
-  },
-  "results": [
+  "keyword": "Feature",
+  "name": "Webpage Tests",
+  "uri": "path/to/feature/file.feature",
+  "elements": [
     {
-      "suites": [
+      "id": "1",
+      "keyword": "Scenario",
+      "name": "Homepage Test",
+      "line": 3,
+      "type": "scenario",
+      "steps": [
         {
-          "title": "Webpage Tests",
-          "tests": [
-            {
-              "title": "Homepage Test",
-              "fullTitle": "Webpage Tests Homepage Test",
-              "duration": 800,
-              "state": "passed",
-              "error": {},
-              "speed": "fast"
-            },
-            {
-              "title": "About Page Test",
-              "fullTitle": "Webpage Tests About Page Test",
-              "duration": 700,
-              "state": "passed",
-              "error": {},
-              "speed": "medium"
-            },
-            {
-              "title": "Contact Page Test",
-              "fullTitle": "Webpage Tests Contact Page Test",
-              "duration": 500,
-              "state": "passed",
-              "error": {},
-              "speed": "slow"
-            }
-          ],
-          "testsCount": 3,
-          "passCount": 3,
-          "failCount": 0,
-          "pendingCount": 0,
-          "duration": 2000
+          "keyword": "Given",
+          "name": "User navigates to the homepage",
+          "line": 4,
+          "result": {
+            "status": "passed",
+            "duration": 100
+          }
+        },
+        {
+          "keyword": "Then",
+          "name": "Homepage is displayed",
+          "line": 5,
+          "result": {
+            "status": "passed",
+            "duration": 50
+          }
         }
-      ],
-      "stats": {
-        "suites": 1,
-        "tests": 3,
-        "passes": 3,
-        "pending": 0,
-        "failures": 0,
-        "start": "2023-08-04T12:00:00Z",
-        "end": "2023-08-04T12:01:00Z",
-        "duration": 60000
-      }
+      ]
+    },
+    {
+      "id": "2",
+      "keyword": "Scenario",
+      "name": "About Page Test",
+      "line": 8,
+      "type": "scenario",
+      "steps": [
+        {
+          "keyword": "Given",
+          "name": "User navigates to the about page",
+          "line": 9,
+          "result": {
+            "status": "passed",
+            "duration": 80
+          }
+        },
+        {
+          "keyword": "Then",
+          "name": "About page is displayed",
+          "line": 10,
+          "result": {
+            "status": "passed",
+            "duration": 60
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "metadata": {
+    "generated": "2023-08-04T12:00:00Z",
+    "appVersion": "1.0.0",
+    "testEnvironment": "STAGING",
+    "browser": "Chrome 96.0",
+    "platform": "Windows 10"
+  }
 }
