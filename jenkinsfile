@@ -1,0 +1,8 @@
+stage 'Run Test'
+         script 
+            {sh "mvn clean test -Dcucumber.options=\"src/test/resources/features/ --tags @YourTagName\""}
+      finally {
+                           cucumber buildStatus: "UNSTABLE", 
+                           fileIncludePattern: "**/cucumber.json",
+                           jsonReportDirectory: 'target'
+                            }
