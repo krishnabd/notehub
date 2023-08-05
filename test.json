@@ -1,49 +1,38 @@
-{
-  "uri": "path/to/feature/file.feature",
-  "id": "feature-id",
-  "name": "Feature Name",
-  "keyword": "Feature",
-  "description": "Description of the feature",
-  "line": 1,
-  "elements": [
-    {
-      "id": "scenario-id",
-      "name": "Scenario Name",
-      "keyword": "Scenario",
-      "line": 3,
-      "type": "scenario",
-      "steps": [
-        {
-          "keyword": "Given",
-          "name": "I am on the homepage",
-          "line": 4,
-          "result": {
-            "status": "passed",
-            "duration": 100
-          }
-        },
-        {
-          "keyword": "When",
-          "name": "I click the login button",
-          "line": 5,
-          "result": {
-            "status": "passed",
-            "duration": 50
-          }
-        },
-        {
-          "keyword": "Then",
-          "name": "I should see the dashboard",
-          "line": 6,
-          "result": {
-            "status": "passed",
-            "duration": 70
-          }
-        }
-      ]
-    }
-  ],
-  "tags": [],
-  "after": [],
-  "before": []
-}
+[	
+	{
+		"firstName": "Lakshay",
+		"lastName": "Sharma",
+		"age": 35,
+		"emailAddress": "Lakshay@Gmail.com",
+		"address": {
+			"streetAddress": "Shalimar Bagh",
+			"city": "Delhi",
+			"postCode": "110088",
+			"state": "Delhi",
+			"country": "India",
+			"county": "Delhi"
+		},
+		"phoneNumber": {
+			"home": "012345678",
+			"mob": "0987654321"
+		}
+	},
+	{
+		"firstName": "Virender",
+		"lastName": "Singh",
+		"age": 35,
+		"emailAddress": "Virender@Gmail.com",
+		"address": {
+			"streetAddress": "Palam Vihar",
+			"city": "Gurgaon",
+			"postCode": "122345",
+			"state": "Haryana",
+			"country": "India",
+			"county": "Delhi"
+		},
+		"phoneNumber": {
+			"home": "012345678",
+			"mob": "0987654321"
+		}
+	}
+]
