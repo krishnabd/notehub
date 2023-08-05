@@ -15,7 +15,20 @@
     </properties>
 
          <dependencies>
-    </dependencies>
+             <!-- Selenium WebDriver -->
+             <dependency>
+                 <groupId>org.seleniumhq.selenium</groupId>
+                 <artifactId>selenium-java</artifactId>
+                 <version>3.141.59</version>
+             </dependency>
+         
+             <!-- Cucumber Reporting Plugin -->
+             <dependency>
+                 <groupId>net.masterthought</groupId>
+                 <artifactId>cucumber-reporting</artifactId>
+                 <version>5.7.0</version>
+             </dependency>
+         </dependencies>
     <build>
         <resources>
             <!-- Specify resources to include in the JAR artifact -->
