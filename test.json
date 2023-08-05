@@ -1,24 +1,13 @@
 {
-  "type": "interpreter-config",
-  "configurations": [
-{
-  "settings": [
-{
-  "driverOptions": {
-    "host": localhost,
-    "port": 4444
-
-  },
-  "browserOptions": {
-    "browserName": "firefox",
+  "jsonFile": "target/cucumber-report.json",
+  "outputDirectory": "target/",
+  "reportPrefix": "cucumber-html-report",
+  "reportSuiteAsScenarios": true,
+  "launchReport": true,
+  "metadata": {
+    "App Version":"1.0.0",
+    "Test Environment": "STAGING",
+    "Browser": "Chrome 96.0",
+    "Platform": "Windows 10"
   }
-}
-  ],
-  "scripts": [
-
-    "mySeleniumBuilderTests/tests/*"
-
-      ]
-    }
-  ]
 }
