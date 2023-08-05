@@ -1,13 +1,60 @@
 {
-  "jsonFile": "target/cucumber-report.json",
-  "outputDirectory": "target/",
-  "reportPrefix": "cucumber-html-report",
-  "reportSuiteAsScenarios": true,
-  "launchReport": true,
-  "metadata": {
-    "App Version":"1.0.0",
-    "Test Environment": "STAGING",
-    "Browser": "Chrome 96.0",
-    "Platform": "Windows 10"
-  }
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "duration": 2000
+  },
+  "results": [
+    {
+      "suites": [
+        {
+          "title": "Webpage Tests",
+          "tests": [
+            {
+              "title": "Homepage Test",
+              "fullTitle": "Webpage Tests Homepage Test",
+              "duration": 800,
+              "state": "passed",
+              "error": {},
+              "speed": "fast"
+            },
+            {
+              "title": "About Page Test",
+              "fullTitle": "Webpage Tests About Page Test",
+              "duration": 700,
+              "state": "passed",
+              "error": {},
+              "speed": "medium"
+            },
+            {
+              "title": "Contact Page Test",
+              "fullTitle": "Webpage Tests Contact Page Test",
+              "duration": 500,
+              "state": "passed",
+              "error": {},
+              "speed": "slow"
+            }
+          ],
+          "testsCount": 3,
+          "passCount": 3,
+          "failCount": 0,
+          "pendingCount": 0,
+          "duration": 2000
+        }
+      ],
+      "stats": {
+        "suites": 1,
+        "tests": 3,
+        "passes": 3,
+        "pending": 0,
+        "failures": 0,
+        "start": "2023-08-04T12:00:00Z",
+        "end": "2023-08-04T12:01:00Z",
+        "duration": 60000
+      }
+    }
+  ]
 }
